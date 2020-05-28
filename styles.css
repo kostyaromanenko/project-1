@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.site-body{
+    background-color: #1e1e1e;
+}
+.header-logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-family: Roboto;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 3%;
+    font-family: Roboto;
+}
+.nav-list__item-link{
+    color: orange;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.header-container-left{
+    margin-top: 70px;
+    margin-left: 120px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 20%;
+    height: auto;
+    border: solid 3px;
+    border-radius: 10px;
+    
+    
+}
+.header-container-left__logo{
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.header-container-left-list__item{
+    margin-left: 48px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    margin-bottom: 5%;
+
+}
+.header-container-right{
+    margin-top: 70px;
+    margin-right: 140px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: solid 3px;
+    border-radius: 10px;
+    width: 20%;
+    height: auto;
+
+}
+.header-container-right__logo{
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 25px;
+    margin-top: 32px;
+}
+.header-container-right-list__item{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+}
+.video{
+    width: 40%;
+    height: 400px;
+    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.site-main-box-upper{
+    margin-bottom: 5%;
+    margin-left: 31%;
+    margin-bottom: 5%;
+    width: 35%;
+    height: auto;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: orange;
+    
+}
+.history-img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+.site-main-box-upper__logo{
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 25px;
+}
+.site-main-box-upper__text{
+    font-family: Roboto;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.site-main-box-middle{
+    margin-left: 31%;
+    width: 35%;
+    height: auto;
+    margin-bottom: 5%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: orange;
+}
+.site-main-box-middle__logo{
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 25px;
+
+}
+.site-main-box-middle__text{
+    font-family: Roboto;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.site-main-box-footer{
+    margin-left: 31%;
+    width: 35%;
+    height: auto;
+    margin-bottom: 10%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: orange;
+}
+.site-main-box-footer__logo{
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 25px;
+    
+}
+.site-main-box-footer__text{
+    font-family: Roboto;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+@media(max-width: 768px) {
+.nav-list{
+    margin-left: 1%;
+}
+.header-container{
+    margin-right: 1%;
+}
+.header-container-left{
+    width: 30%;
+}
+.header-container-right{
+    width: 30%;
+}
+.video-shortcut{
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+.video{
+    width: 80%;
+    margin-left: -17%;
+}
+.site-main-box-upper{
+    width: 60%;
+    margin-left: 17.5%;
+}
+.site-main-box-middle{
+    width: 60%;
+    margin-left: 17.5%;
+}
+.site-main-box-footer{
+    width: 60%;
+    margin-left: 17.5%;
+}
+} 
+
+
+@media(max-width: 360px){
+.nav-list{
+    margin-left: 5%;
+}
+  .header-container{
+    margin-right: 1%;
+    justify-content: center;
+} 
+.header-container-left{
+    width: 100%;
+}
+.header-container-right{
+    width: 250%;
+}
+.video{
+    width: 80%;
+    height: 200px;
+    margin-left: -15%;
+}
+.history-img{
+    width: 80%;
+    height: auto;
+}
+.header-container-left-list__item{
+    margin-left: 5%;
+}
+.header-container-right-list__item{
+    margin-left: 5%;
+}
+.site-main-box-upper{
+    width: 80%;
+    margin-left: 9%;
+}
+.site-main-box-middle{
+    width: 80%;
+    margin-left: 9%;
+}
+.site-main-box-footer{
+    width: 80%;
+    margin-left: 9%;
+} 
+ 
+
+
+}
+
+
+
